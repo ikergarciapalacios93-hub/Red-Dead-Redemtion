@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Dead Redemption 2 | Galería</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1><i class="fa-solid fa-hat-cowboy"></i> RDR<span>2</span></h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li><a href="personajes.html"><i class="fa-solid fa-users"></i> Personajes</a></li>
+                <li><a href="galeria.html" class="activo"><i class="fa-solid fa-images"></i> Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="seccion">
+        <h2><i class="fa-solid fa-images"></i> Galería de imágenes</h2>
+
+        <div class="galeria">
+            <img src="img/galeria1.jpg" alt="Paisaje de RDR2" class="galeria-img">
+            <img src="img/galeria2.jpg" alt="Arthur a caballo" class="galeria-img">
+            <img src="img/galeria3.jpg" alt="Atardecer en el Oeste" class="galeria-img">
+        </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <span class="cerrar-lightbox" id="cerrarLightbox"><i class="fa-solid fa-xmark"></i></span>
+        <img src="" alt="Imagen ampliada" id="imgAmpliada">
+    </div>
+
+    <footer class="footer">
+        <p><i class="fa-solid fa-hat-cowboy"></i> Sitio fan hecho con HTML, CSS y JS · Red Dead Redemption 2 © Rockstar Games</p>
+    </footer>
+
+    <script src="js/oper.js"></script>
+</body>
+</html>

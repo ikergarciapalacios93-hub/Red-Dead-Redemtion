@@ -1,22 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I+K</title>
+    <title>Red Dead Redemption 2 | Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
-
 <body>
-    <div>
-<img src="https://images.alphacoders.com/127/thumb-1920-1278678.png"width="80%"
- alt="" srcset="">
-    </div>
 
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="header">
+        <div class="logo">
+            <h1><i class="fa-solid fa-hat-cowboy"></i> RDR<span>2</span></h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html" class="activo"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li><a href="personajes.html"><i class="fa-solid fa-users"></i> Personajes</a></li>
+                <li><a href="galeria.html"><i class="fa-solid fa-images"></i> Galería</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div>
-    <img src="https://images7.alphacoders.com/141/thumb-1920-1411332.png" width="80%" alt="" srcset="">
-</div>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-contenido">
+            <h2>Red Dead Redemption 2</h2>
+            <p>El ocaso del Salvaje Oeste. La historia de Arthur Morgan y la banda de Dutch van der Linde.</p>
+            <button id="btnInfo" class="btn">
+                <i class="fa-solid fa-circle-info"></i> Ver más info
+            </button>
+        </div>
+    </section>
 
+    <!-- INFO OCULTA -->
+    <section class="info-extra" id="infoExtra">
+        <h3><i class="fa-solid fa-scroll"></i> Datos del juego</h3>
+        <ul>
+            <li><i class="fa-solid fa-building"></i> <strong>Desarrollador:</strong> Rockstar Games</li>
+            <li><i class="fa-solid fa-calendar-days"></i> <strong>Lanzamiento:</strong> 2018 (PS4 / Xbox One) – 2019 (PC)</li>
+            <li><i class="fa-solid fa-gamepad"></i> <strong>Género:</strong> Acción y aventura, mundo abierto</li>
+            <li><i class="fa-solid fa-user"></i> <strong>Protagonista:</strong> Arthur Morgan</li>
+            <li><i class="fa-solid fa-map-location-dot"></i> <strong>Ambientación:</strong> 1899, Estados Unidos ficticio</li>
+        </ul>
+    </section>
+
+    <!-- SECCIÓN DE CARACTERÍSTICAS -->
+    <section class="caracteristicas">
+        <h3><i class="fa-solid fa-star"></i> Características destacadas</h3>
+        <div class="cards">
+            <article class="card">
+                <h4><i class="fa-solid fa-mountain-sun"></i> Mundo abierto</h4>
+                <p>Explora un mapa inmenso con ciudades, pueblos, montañas, ríos y fauna dinámica.</p>
+            </article>
+            <article class="card">
+                <h4><i class="fa-solid fa-book-open"></i> Narrativa profunda</h4>
+                <p>Una de las historias mejor contadas de Rockstar, con personajes inolvidables.</p>
+            </article>
+            <article class="card">
+                <h4><i class="fa-solid fa-scale-balanced"></i> Sistema de honor</h4>
+                <p>Tus decisiones afectan cómo te trata el mundo y el desarrollo de la historia.</p>
+            </article>
+            <article class="card">
+                <h4><i class="fa-solid fa-crosshairs"></i> Realismo</h4>
+                <p>Caza, pesca, campamentos, clima dinámico y mantenimiento de armas.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p><i class="fa-solid fa-hat-cowboy"></i> Sitio fan hecho con HTML, CSS y JS · Red Dead Redemption 2 © Rockstar Games</p>
+    </footer>
+
+    <script src="js/oper.js"></script>
 </body>
 </html>

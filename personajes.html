@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Dead Redemption 2 | Personajes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1><i class="fa-solid fa-hat-cowboy"></i> RDR<span>2</span></h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li><a href="personajes.html" class="activo"><i class="fa-solid fa-users"></i> Personajes</a></li>
+                <li><a href="galeria.html"><i class="fa-solid fa-images"></i> Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="seccion">
+        <h2><i class="fa-solid fa-users"></i> Personajes principales</h2>
+
+        <div class="personajes-grid">
+
+            <article class="personaje" data-personaje="arthur">
+                <img src="img/arthur.jpg" alt="Arthur Morgan">
+                <h3>Arthur Morgan</h3>
+                <p>El protagonista. Un forajido leal a la banda de Dutch.</p>
+                <button class="btn-ver"><i class="fa-solid fa-eye"></i> Ver más</button>
+            </article>
+
+            <article class="personaje" data-personaje="dutch">
+                <img src="img/dutch.jpg" alt="Dutch van der Linde">
+                <h3>Dutch van der Linde</h3>
+                <p>El carismático líder de la banda.</p>
+                <button class="btn-ver"><i class="fa-solid fa-eye"></i> Ver más</button>
+            </article>
+
+            <article class="personaje" data-personaje="john">
+                <img src="img/john.jpg" alt="John Marston">
+                <h3>John Marston</h3>
+                <p>Miembro de la banda y protagonista del primer RDR.</p>
+                <button class="btn-ver"><i class="fa-solid fa-eye"></i> Ver más</button>
+            </article>
+
+            <article class="personaje" data-personaje="sadie">
+                <img src="img/sadie.jpg" alt="Sadie Adler">
+                <h3>Sadie Adler</h3>
+                <p>Una viuda que se une a la banda y se vuelve letal.</p>
+                <button class="btn-ver"><i class="fa-solid fa-eye"></i> Ver más</button>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" id="cerrarModal"><i class="fa-solid fa-xmark"></i></span>
+            <h3 id="modalTitulo"></h3>
+            <p id="modalTexto"></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p><i class="fa-solid fa-hat-cowboy"></i> Sitio fan hecho con HTML, CSS y JS · Red Dead Redemption 2 © Rockstar Games</p>
+    </footer>
+
+    <script src="js/oper.js"></script>
+</body>
+</html>
